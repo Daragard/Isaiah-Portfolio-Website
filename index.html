@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>isaiah_baumgarte_portfolio.sh</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="terminal" id="terminal-container">
+    <div id="banner">
+        <pre>
+██╗███████╗ █████╗ ██╗ █████╗ ██╗  ██╗    ██████╗  █████╗ ██╗   ██╗███╗   ███╗ ██████╗  █████╗ ██████╗ ████████╗███████╗
+██║██╔════╝██╔══██╗██║██╔══██╗██║  ██║    ██╔══██╗██╔══██╗██║   ██║████╗ ████║██╔════╝ ██╔══██╗██╔══██╗╚══██╔══╝██╔════╝
+██║███████╗███████║██║███████║███████║    ██████╔╝███████║██║   ██║██╔████╔██║██║  ███╗███████║██████╔╝   ██║   █████╗  
+██║╚════██║██╔══██║██║██╔══██║██╔══██║    ██╔══██╗██╔══██║██║   ██║██║╚██╔╝██║██║   ██║██╔══██║██╔══██╗   ██║   ██╔══╝  
+██║███████║██║  ██║██║██║  ██║██║  ██║    ██████╔╝██║  ██║╚██████╔╝██║ ╚═╝ ██║╚██████╔╝██║  ██║██║  ██║   ██║   ███████╗
+╚═╝╚══════╝╚═╝  ╚═╝╚═╝╚═╝  ╚═╝╚═╝  ╚═╝    ╚═════╝ ╚═╝  ╚═╝ ╚═════╝ ╚═╝     ╚═╝ ╚═════╝ ╚═╝  ╚═╝╚═╝  ╚═╝   ╚═╝   ╚══════╝
+        </pre>
+        <div class="output">
+Welcome to my corner of the internet.
+Type <span style="color: #ffffff; font-weight: bold;">ls</span> to see files or <span style="color: #ffffff; font-weight: bold;">help</span> to see global choices.
+Try using <span style="color: #ffffff; font-weight: bold;">cd projects</span> to step inside.
+        </div>
+    </div>
+
+    <div id="history"></div>
+
+    <div class="prompt-block">
+        <div id="prompt-top"><span class="prompt-accent">┌──(</span><span class="prompt-user-loc">kali㉿kali</span><span class="prompt-accent">)-[</span><span class="prompt-user-loc" id="dir-path">~</span><span class="prompt-accent">]</span></div>
+        <div class="input-line">
+            <span class="prompt-accent">└─$</span>
+            <input type="text" id="cmd-input" autofocus autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false">
+        </div>
+    </div>
+</div>
+
+<script src="filesystem.js"></script>
+<script src="commands.js"></script>
+<script src="main.js"></script>
+</body>
+</html>
